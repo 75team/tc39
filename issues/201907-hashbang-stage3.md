@@ -15,7 +15,7 @@ console.log(1);
 
 即如果第一行是以`#!`开头的话，忽略第一行。
 
-这基本上是当前 node.js 等 cli 的行为。
+这基本上是当前 node.js 等 CLI 的行为。
 
 Hashbang 提案在2018年12月直接达到 stage 3，Chrome 74+ 和 Firefox 67+ 已实现。
 
@@ -70,5 +70,5 @@ CSS的 [`@charset "xxx"` 机制](https://drafts.csswg.org/css-syntax/#determine-
 
 ## 可能的解决方案
 
-1. 将 `#!` 视同 `<!--` 处理
-1. 撤销 hashbang 提案，hashbang 需求仍像现在一样由 cli 自行处理。（开发者知晓 hashbang 只能用于特定 cli 的入口脚本，而不会期待一般的 JS 文件可以带有 hashbang。）
+1. 不限定 `#!` 必须在文件首，而是按spec附录中的 HTML-like Comments 类似的方式来处理，具体来说可采用与`-->`（[SingleLineHTMLCloseComment](https://tc39.es/ecma262/#prod-annexB-SingleLineHTMLCloseComment)）相同的grammar（将 `-->` 换为 `#!`）。
+1. 撤销 hashbang 提案，hashbang 需求仍像现在一样由 CLI 自行处理。开发者知晓 hashbang 只能用于特定 CLI 的入口脚本，而不会期待一般的 JS 文件可以带有 hashbang。
