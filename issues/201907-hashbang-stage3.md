@@ -62,9 +62,9 @@ console.log(ok)
 
 ## 先例
 
-CSS的 `@charset` 指令类似于 `#!`，必须严格在文件首。但这个例子有个重要不同：
+CSS的 [`@charset "xxx"` 机制](https://drafts.csswg.org/css-syntax/#determine-the-fallback-encoding)类似于 `#!`，必须严格在文件首。但这个例子有个重要不同：
 
-`@charset`不在文件首只是会使得charset指令无效，但并不一定导致整个CSS文件解析失败。事实上，UTF-16文件通常以BOM来提供编码信息，因此无需charset指令，而其他的常见编码（UTF-8、ISO-8859-x、Shift-JIS、GBK等）均是ASCII兼容编码，因此不正确的解码只是导致少部分乱码，但CSS整体上仍然是可以工作的。
+`@charset "xxx"` 不在文件首只是会使得charset声明无效，但并不一定导致整个CSS文件解析失败。事实上，UTF-16文件只能以BOM来提供编码信息，而不能依赖charset声明。而其他的常见编码（UTF-8、ISO-8859-x、Shift-JIS、GBK等）均是ASCII兼容编码，因此不正确的解码只是导致少部分乱码，但CSS整体上仍然是可以工作的。
 
 从历史的角度看，HTML/CSS/JS 的前置或后置 whitespace 从来不会导致整体性的解析失败。进一步说，JS前置和后置注释、换行、空白等从来不会改变JS的解析结果和语义。从某种程度上说，这也应该被视为一种 web compatibility 的要求。
 
