@@ -74,7 +74,11 @@ CSS的 [`@charset "xxx"` 机制](https://drafts.csswg.org/css-syntax/#determine-
 
 `@charset "xxx"` 不在文件首只是会使得charset声明无效，但并不一定导致整个CSS文件解析失败。事实上，UTF-16文件只能以BOM来提供编码信息，而不能依赖charset声明。而其他的常见编码（UTF-8、ISO-8859-x、Shift-JIS、GBK等）均是ASCII兼容编码，因此不正确的解码只是导致少部分乱码，但CSS整体上仍然是可以工作的。
 
-从历史的角度看，HTML/CSS/JS 的前置或后置 whitespace 从来不会导致整体性的解析失败。进一步说，JS前置和后置注释、换行、空白等从来不会改变JS的解析结果和语义。从某种程度上说，这也应该被视为一种 web compatibility 的要求。
+另一个例子是 DOCTYPE 声明，在老IE浏览器中（IE9和之前），DOCTYPE 前如果有任何内容，包括注释和XML声明，均会触发 quirk mode（即 DOCTYPE 声明无效）。但该例中，前置内容也不会导致解析失败，并且新浏览器也没有这个问题。
+
+## 原理
+
+从历史的角度看，HTML/CSS/JS 的前置或后置注释、换行、空白等从来不会导致整体性的解析失败。进一步说，JS前置和后置注释、换行、空白等从来不会改变JS的解析结果和语义。之前提及的许多转换的例子潜在地依赖这一点。所以本质上，这也应该被视为一种 Web Compatibility 的要求。
 
 ## 可能的解决方案
 
