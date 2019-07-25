@@ -2,7 +2,7 @@
 
 - 提交者：@hax
 - 360TC状态：尚未讨论
-- 反馈收集：#2
+- 反馈收集：[#2](https://github.com/75team/tc39/issues/2)
 
 ## 简介
 
@@ -75,3 +75,7 @@ CSS的 [`@charset "xxx"` 机制](https://drafts.csswg.org/css-syntax/#determine-
 
 1. 不限定 `#!` 必须在文件首，而是按spec附录中的 HTML-like Comments 类似的方式来处理，具体来说可采用与`-->`（[SingleLineHTMLCloseComment](https://tc39.es/ecma262/#prod-annexB-SingleLineHTMLCloseComment)）相同的grammar（将 `-->` 换为 `#!`）。
 1. 撤销 hashbang 提案，hashbang 需求仍像现在一样由 CLI 自行处理。开发者知晓 hashbang 只能用于特定 CLI 的入口脚本，而不会期待一般的 JS 文件可以带有 hashbang。
+
+## 反馈和讨论
+
+https://github.com/75team/tc39/issues/2
