@@ -1,7 +1,7 @@
 # Hashbang 提案的问题
 
 - 提交者：@hax
-- 360TC状态：尚未讨论
+- 360TC状态：已讨论
 - 反馈收集：[#2](https://github.com/75team/tc39/issues/2)
 
 ## 简介
