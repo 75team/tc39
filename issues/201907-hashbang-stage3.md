@@ -3,6 +3,7 @@
 - 提交者：@hax
 - 360TC状态：已讨论
 - 反馈收集：[#2](https://github.com/75team/tc39/issues/2)
+- 官方issue：[#18](https://github.com/tc39/proposal-hashbang/issues/18)
 
 ## 简介
 
@@ -87,4 +88,5 @@ CSS的 [`@charset "xxx"` 机制](https://drafts.csswg.org/css-syntax/#determine-
 
 ## 反馈和讨论
 
-https://github.com/75team/tc39/issues/2
+- https://github.com/75team/tc39/issues/2
+- https://github.com/tc39/proposal-hashbang/issues/18 提案官方 issue（英语）
