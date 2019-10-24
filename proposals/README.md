@@ -7,6 +7,9 @@
 ## 尚未提交 TC39 的草案（Stage 0）
 
 - 函数的`this`属性，作者 @hax
+<!-- - 函数的显式`this`参数 -->
+<!-- - extension methods and accessors，作者 @hax -->
+<!-- - modifier，作者 @hax -->
 
 ## 未被 TC39 接受的草案或已中止的提案
 
