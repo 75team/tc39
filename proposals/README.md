@@ -2,11 +2,14 @@
 
 ## 已经进入 TC39 正式流程的提案（Stage >= 1）
 
-- [`function.sent` 元属性（Stage 2），由 @hax 担任 champion](https://github.com/allenwb/ESideas/blob/master/Generator%20metaproperty.md)
+- [`function.sent` 元属性（Stage 2）](https://github.com/tc39/proposal-function.sent)，由 @hax 担任 champion
+<!-- old url: https://github.com/allenwb/ESideas/blob/master/Generator%20metaproperty.md -->
 
 ## 尚未提交 TC39 的草案（Stage 0）
 
-- 函数的`this`属性，作者 @hax
+- 函数的`thisArgumentExpected`属性（function instance `thisArgumentExpected` data property），作者 @hax
+- 扩展和`::`符号（extensions and `::` notation），作者 @hax
+- 函数自省和工具方法（function reflections and helpers），作者 @hax
 
 ## 未被 TC39 接受的草案或已中止的提案
 
