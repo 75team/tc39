@@ -23,7 +23,7 @@ console.assert(foo.toString().contains('...'))
 如果我们使用了`hide source`指令
 
 ```javascript
-’hide source‘
+"hide source"
 
 function foo() { /* ... */ }
 
