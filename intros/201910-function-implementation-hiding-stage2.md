@@ -1,11 +1,14 @@
-# proposal：function implementation hiding
+# function implementation hiding
 
+提案状态
 
-* status: stage-2
-* [repo](https://github.com/tc39/proposal-function-implementation-hiding)
+* Stage: 2
+* Repo: https://github.com/tc39/proposal-function-implementation-hiding
+* Champion: @michaelficarra
 
+本文是对`function-implementation-hiding`提案目前现状的总结，基本翻译自提案的 README（译者：李冬杰 @makeco）。该提案的champion正在寻求推进该提案到stage 3（2019年12月的会议上暂时没有达到stage 3，明年2月TC39会议可能重新审议）。一旦成为stage 3的提案，修改成本会非常高。
 
-这篇文章是对`function-implementation-hiding`提案目前现状的总结，在12月TC39会议上，它可能成为stage-3的提案，成为stage-3的提案修改成本会非常高，希望能引起更多人思考，有关心的问题尽早提出来，让JS变得更好。
+本提案对运行时安全、运行时内省和元编程、运行时错误收集等方面有比较重大的影响，希望这篇介绍能引起更多人思考，大家有关心的问题尽早提出来，让JS变得更好。
 
 ## 简介
 
