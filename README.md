@@ -27,6 +27,7 @@
 - [主导提案](https://github.com/75team/tc39/tree/master/proposals)
 - [重大问题](https://github.com/75team/tc39/tree/master/issues)
 
-## 文章
+## 其他
 
-1. [在什么情况下 a === a - 1 ？](/articles/20190722_在什么情况下a%3D%3D%3Da-1？.md)（2019年7月23日 @akira-cn）
+- [TC39 的新提案和其他工作内容的介绍](/intros)
+- [与 JavaScript 语言有关的其他文章](/articles)
