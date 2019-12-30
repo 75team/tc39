@@ -31,3 +31,4 @@
 
 - [TC39 的新提案和其他工作内容的介绍](/intros)
 - [与 JavaScript 语言有关的其他文章](/articles)
+- [Ecma 118th GA 会议手记 by 李松峰](https://github.com/75team/w3c/blob/master/articles/20191229_cncuckoo_Ecma_118th_GA%E4%BC%9A%E8%AE%AE%E6%89%8B%E8%AE%B0.md)
