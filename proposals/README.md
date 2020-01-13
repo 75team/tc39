@@ -14,3 +14,8 @@
 ## 未被 TC39 接受的草案或已中止的提案
 
 暂无
+
+## 其他（由中国公司代表提出、撰写、担任champion或协同开发的草案）
+
+- [`Number.range` & `BigInt.range`](https://github.com/Jack-Works/proposal-Number.range) (Stage 0)
+- [ECMAScriptParser](https://github.com/Jack-Works/proposal-ecmascript-parser) (Stage 0)
