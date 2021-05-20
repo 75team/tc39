@@ -13,13 +13,13 @@
 ## 成员
 
 360 Ecma-TC39 工作组成员，同时也是 360 的 TC39 代表，由 360技术委员会 Web前端分会 指派，包括：
+-   [@kyomic](https://github.com/kyomic)，General Assembly Representative（GA-Rep 会员大会代表）
 -   [@zeldajay](https://github.com/zeldajay)，General Assembly Representative（GA-Rep 会员大会代表）
--   [@kyomic](https://github.com/kyomic)
 -   [@liuguanyu](https://github.com/liuguanyu)
 -   [@tataqiuqiu](https://github.com/tataqiuqiu)
 
 ## 前成员
--   [@webzhao](https://github.com/webzhao)，General Assembly Representative（GA-Rep 会员大会代表）
+-   [@webzhao](https://github.com/webzhao)
 -   [@akira-cn](https://github.com/akira-cn)
 -   [@cncuckoo](https://github.com/cncuckoo)
 -   [@hax](https://github.com/hax)
